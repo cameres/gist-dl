@@ -5,6 +5,6 @@ gist-dl is a lightweight command line tool for downloading gists from **[gist.gi
 Features
 - downloading gists from...
   - [gist homepage](https://gist.github.com/discover)
-  - specific multiple users gists via `$gist-dl <user>... <dest>`
+  - specific multiple users gists via `$ gist-dl <user>... <dest>`
 - passing credentials via command line or config file
 - downloading gists matching a particular file type
