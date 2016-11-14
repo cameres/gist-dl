@@ -27,7 +27,7 @@ def download_gists(dst, gists, extension):
                     contents = r.get(gist_file.raw_url).text
 
                 # TODO: handle overwriting files
-                file = open(file_directory + file_name, 'w')
+                file = open(file_directory + file_name, 'wb')
                 # TODO: make sure to encode correctly
                 file.write(contents.encode('utf8', 'replace'))
                 file.close()

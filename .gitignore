@@ -90,3 +90,4 @@ docs/_build/
 target/
 
 notebooks/
+config.json
